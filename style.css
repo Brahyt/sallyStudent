@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  a:link {
+    color: cornflowerblue
+  }
+  
+  a:visited{
+    color:#F6C63E
+  }
+  
+  a:active{
+    font-size: 120%;
+  }
+  
+  a:focus{
+    font-size: 120%;
+  }
+  
+  html {
+    font-family: 'Literata', serif;
+  }
+  
+  body {
+    background-color: #F4F4F6;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .topbar {
+    background-color: #F6C63E;
+    height: 50px;
+    border-bottom: 3px solid cornflowerblue;
+  }
+  
+  img {
+    width: 300px;
+  }
+  
+  p {
+    margin: 0 0 0 40px;
+    padding: 0px;
+  }
+  
+  h1 {
+    color: #F6C63E;
+    font-size: 75px;
+    font-family: 'Josefin Slab', serif;
+    text-align: center;
+    margin: 150px 0 0 0;
+  }
+  
+  h2 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 40px;
+    color: #F6C63E;
+    margin: 15px 0 10px 10px;
+  }
+  
+  h2::before {
+    content: "\f0da";
+    font-family: FontAwesome;
+    font-size: 40px;
+    color: #F6C63E;
+    margin-right: 10px;
+  }
+  
+  h3 {
+    font-size: 25px;
+    color: cornflowerblue;
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+  
+  h4 {
+    font-size: 20px;
+    margin: 0 0 0 40px;
+  }
+  
+  h5 {
+    margin: 0 0 20px 60px;
+  }
+  
+  header {
+    display: flex;
+  }
+  
+  .image {
+    width: 50%;
+    text-align: center;
+  }
+  
+  .contact {
+    width: 50%;
+    text-align: center;
+    padding: auto;
+  }
+  
+  li {
+    display: block;
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+  
+  footer {
+    background-color: #F6C63E;
+    border-top: 2px solid cornflowerblue;
+    padding-bottom: 3px;
+  }
+  
+  footer p {
+    color: cornflowerblue;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .top {
+    display: flex;
+  }
+  
+  .work {
+    width: 50%;
+  
+  }
+  
+  .about {
+    width: 50%
+  }
